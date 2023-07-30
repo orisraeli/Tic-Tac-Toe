@@ -12,6 +12,8 @@
 		45B089102A727C0700F06DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B0890F2A727C0700F06DB1 /* Assets.xcassets */; };
 		45B089132A727C0700F06DB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B089122A727C0700F06DB1 /* Preview Assets.xcassets */; };
 		45B0891A2A73C50C00F06DB1 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B089192A73C50C00F06DB1 /* Alerts.swift */; };
+		45B0891E2A73CF6A00F06DB1 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0891D2A73CF6A00F06DB1 /* GameViewModel.swift */; };
+		45B089202A76BC6100F06DB1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0891F2A76BC6100F06DB1 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		45B0890F2A727C0700F06DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45B089122A727C0700F06DB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45B089192A73C50C00F06DB1 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		45B0891D2A73CF6A00F06DB1 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		45B0891F2A76BC6100F06DB1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				45B0890B2A727C0600F06DB1 /* Tic_Tac_ToeApp.swift */,
 				45B0890D2A727C0600F06DB1 /* GameView.swift */,
+				45B0891D2A73CF6A00F06DB1 /* GameViewModel.swift */,
+				45B0891F2A76BC6100F06DB1 /* Model.swift */,
 				45B089192A73C50C00F06DB1 /* Alerts.swift */,
 				45B0890F2A727C0700F06DB1 /* Assets.xcassets */,
 				45B089112A727C0700F06DB1 /* Preview Content */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B0891E2A73CF6A00F06DB1 /* GameViewModel.swift in Sources */,
+				45B089202A76BC6100F06DB1 /* Model.swift in Sources */,
 				45B0890E2A727C0600F06DB1 /* GameView.swift in Sources */,
 				45B0891A2A73C50C00F06DB1 /* Alerts.swift in Sources */,
 				45B0890C2A727C0600F06DB1 /* Tic_Tac_ToeApp.swift in Sources */,

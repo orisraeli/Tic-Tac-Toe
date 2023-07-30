@@ -20,10 +20,10 @@ struct AlertContext {
 							 buttonTitle: Text("Hell Yeah"))
 	
 	static let pcWin = AlertItem(title: Text("You lost..."),
-							 message: Text("What a battle of wits we have here..."),
+							 message: Text("You have programmed a super AI."),
 							 buttonTitle: Text("Rematch"))
 	
 	static let draw = AlertItem(title: Text("Draw"),
-							 message: Text("You are so smart. You beat your own AI."),
+							 message: Text("What a battle of wits we have here..."),
 							 buttonTitle: Text("Try Again"))
 }
